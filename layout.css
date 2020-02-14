@@ -1,27 +1,27 @@
-@media (max-width: 492px){
+/* @media (max-width: 492px){ */
 
 body {
     text-align: center;
     overflow: auto;
-    max-width: 480px;
+    width: 480px;
+    margin:auto;
 }
-header {
-    height: 73px;
-    width: 478px;
+header, section, footer {
     background-color: aquamarine;
     border: 1px solid black !important;
-    line-height: 73px !important;
+}
+header{
+    height: 75px;
+    line-height: 75px;
 }
 #b {
-    height: 148px;
-    width: 478px;
+    height: 150px;
     background-color: green;
     border: 1px solid black !important;
-    line-height: 148px;
+    line-height: 150px;
 }
 div {
     height: 125px;
-    width: 478px;
     background-color: blueviolet;
     border: 1px solid black !important;
     line-height: 125px !important;
@@ -29,7 +29,8 @@ div {
 
 article {
     height: 250px;
-    width: 239px;
+    line-height: 250px;
+    width: 50%;
     float: left;
     background-color: cyan;
     border: 1px solid black !important;
@@ -37,10 +38,11 @@ article {
     }
 
 footer {
-    width: 478px;
-    height: 78px;
+    line-height: 80px;
+    height: 80px;
 background-color: silver;
 border: 1px solid black !important;
+clear: both;
 }
 }
 
